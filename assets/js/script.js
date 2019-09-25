@@ -67,7 +67,7 @@
             change_score(-price_autoclick);
             clearInterval(timer_autoclick);
             autoclick++;
-            timer_autoclick = setInterval(change_score, speed, autoclick);
+            timer_autoclick = setInterval(change_score, speed, autoclick*multiplier);
             price_autoclick *= price_augment;
             document.getElementById("auto").innerHTML = `${autoclick} autoclick`;
             document.getElementById("autoPrice").innerHTML = `Price: ${price_autoclick} cookies`;
@@ -81,7 +81,7 @@
         if (cookie_counter >= price_boost){
             document.getElementById("boost").disabled = true;
             change_score(-price_boost);
-            boost = 3;
+            boost = 5;
             setTimeout(timer, speed);
             price_boost*= price_augment;
             document.getElementById("boostPrice").innerHTML = `Price: ${price_boost} cookies`;

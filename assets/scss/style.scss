@@ -22,9 +22,7 @@ background-position: center;
 height: 100%;
 width: auto; 
 }
-.jumbotron {
-    background-color: transparent;
-}
+
 .body {
     background-image: url("../img/plate.jpg");
     text-align: center;
@@ -35,7 +33,7 @@ width: auto;
     display: block;
 }
 #cook:active {
-    height: 370px;
+    height: 375px;
     width: auto;
 }
 @media only screen and (max-width: 500px) {
@@ -44,10 +42,21 @@ width: auto;
       width: auto;
     }
     #cook:active{
-        height:190px;
-        width: auto;
+      height:195px;
+      width: auto;
     }
 }
+@media only screen and (min-width: 500px) {
+    .row1 {
+        min-height: 385px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .row1 {
+        min-height: 205px;
+    }
+}
+
 .btn1 {
     margin-left:50%;
     margin-right:50%;
@@ -64,12 +73,12 @@ width: auto;
 	border:1px solid #2c332d;
 	display:inline-block;
 	cursor:pointer;
-	color:orangered;
+	color:red;
 	font-family:ChineseDragon;
 	font-size:2.5em;
 	padding:17px 75px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+	text-shadow:5px 5px 0px black;
 }
 .btn1:hover {
     background-color:orangered;
@@ -110,7 +119,7 @@ width: auto;
 }
 .indicator1 {
     text-align: center;
-    font-size: 5em;
+    font-size: 10em;
     font-family: ChineseDragon;
     background-color: orangered;
     border-radius: 4px;
@@ -131,4 +140,8 @@ h1 {
     font-style: italic;
     color: orangered;
     font-size: 700%;
+}
+.nav {
+    color: white;
+    font-weight: bold;
 }
