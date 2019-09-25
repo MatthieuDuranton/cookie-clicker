@@ -1,4 +1,5 @@
 # cookie-clicker-team
+https://matthieuduranton.github.io/cookie-clicker/  
 
 The goal here was to code a cookie-clicker like game in order to:
 * Learn how to work in team
@@ -44,7 +45,10 @@ Source Code Editor: Visual Studio Code
 All pictures on this website are copyright free and free to use.
 
 favicon & clickable-cookie: http://pngimg.com/download/13656  
-background image: https://giphy.com/gifs/sleepy-seattle-rrelaxinggifs-Vc45Fr4Qq8kX6
+background image: https://giphy.com/gifs/sleepy-seattle-rrelaxinggifs-Vc45Fr4Qq8kX6  
+
+Font: https://www.dafont.com/
+
 
 
 ### Lighthouse Test Results

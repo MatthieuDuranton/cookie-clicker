@@ -1,6 +1,6 @@
 (() => {
 
-    let cookie_counter = 0;
+    let cookie_counter = 000;
     let multiplier = 1;
     let price_multiplier = 20;
     let autoclick = 0;
