@@ -1,3 +1,8 @@
+@font-face {
+  font-family: ChineseDragon;
+  src: url("../img/ChineseDragon.ttf");
+}
+
 @media only screen and (max-width: 700px) {
   #bigscreen {
     display: none;
@@ -24,18 +29,18 @@
 }
 
 .body {
-  background-color: #947b7b;
+  background-image: url("../img/plate.jpg");
   text-align: center;
 }
 
 #cook {
-  height: 400px;
+  height: 380px;
   width: auto;
   display: block;
 }
 
 #cook:active {
-  height: 390px;
+  height: 370px;
   width: auto;
 }
 
@@ -64,9 +69,9 @@
   border: 1px solid #2c332d;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 28px;
+  color: orangered;
+  font-family: ChineseDragon;
+  font-size: 2.5em;
   font-weight: bold;
   padding: 17px 75px;
   text-decoration: none;
@@ -74,7 +79,8 @@
 }
 
 .btn1:hover {
-  background-color: red;
+  background-color: orangered;
+  color: white;
 }
 
 .btn1:active {
@@ -99,14 +105,14 @@
 }
 
 .btn2:hover {
-  background-color: greenyellow;
+  background-color: orangered;
 }
 
 .indicator {
   text-align: center;
   font-size: 2em;
   font-style: italic;
-  background-color: yellowgreen;
+  background-color: orangered;
   color: white;
 }
 
@@ -114,7 +120,7 @@
   text-align: center;
   font-size: 4em;
   font-style: italic;
-  background-color: red;
+  background-color: orangered;
   color: white;
 }
 
@@ -130,9 +136,11 @@
   margin: auto;
 }
 
-.h1 {
-  font-family: Arial, Helvetica, sans-serif;
+h1 {
+  font-family: ChineseDragon;
   font-style: italic;
-  color: white;
+  color: orangered;
+  font-size: 700%;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
