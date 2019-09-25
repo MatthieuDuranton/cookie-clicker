@@ -53,7 +53,7 @@
             price_multiplier *= price_augment;
             document.getElementById("multiPrice").innerHTML = `Price: ${price_multiplier} cookies`;
             multiplier *= multiplier_augment;
-            document.getElementById("multi").innerHTML= `Multiplier x ${multiplier} `;
+            document.getElementById("multi").innerHTML= `x ${multiplier} `;
         }
         else {
             console.log("tu peux pas");
